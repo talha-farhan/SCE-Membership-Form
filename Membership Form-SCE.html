@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>Membership Form - SCE</title>
+	</head>
+	
+	<body>
+		<h1 align="center">Membership Form - SCE</h1>
+		<form>
+			<label>Name</label> <input type="text" placeholder="Ahmad Ali">
+			<br/><br/>
+			<label>Father Name</label> <input type="text" value="Muhammad Aslam">
+			<br/><br/>
+			<label>Gender</label> <input type="radio" name="gender" id="male"> <label for="male">Male</label> <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+			<br/><br/>
+			<label>Session</label>
+				<select>
+					<option>2020</option>
+					<option>2021</option>
+					<option selected>2022</option>
+					<option>2023</option>
+				</select>
+			<br/><br/>
+			<label>Program</label>
+				<select>
+					<optgroup label="Department of Chemical and Polymer Engineering">
+						<option>BSc Chemical Engineering</option>
+						<option>MSc Chemical Engineering</option>
+					</optgroup>
+					
+					<optgroup label="Department of Electrical, Electronics and Telecommunication Engineering">
+						<option>BSc Electrical (Power) Engineering</option>
+						<option>BSc Electrical (Telecommunication) Engineering</option>
+						<option>MSc Electrical Engineering</option>
+					</optgroup>
+					
+					<optgroup label="Department of Mechanical, Mechatronics and Control Engineering">
+						<option>BSc Mechatronics and Control Engineering</option>
+						<option>MSc Mechatronics and Control Engineering</option>
+					</optgroup>
+					
+					<optgroup label="Department of Textile Engineering">
+						<option>BSc Textile Engineering</option>
+						<option>MSc Textile Engineering</option>
+						<option>PhD Textile Engineering</option>
+					</optgroup>
+					
+					<optgroup label="Department of Humanities and Basic Sciences">
+						<option>BS Environmental Sciences</option>
+						<option>BS Chemistry</option>
+						<option>BS Physics</option>
+						<option>BS Mathematics</option>
+						<option>BBA</option>
+						<option>MBA </option>
+					</optgroup>
+
+				</select>
+			<br/><br/>
+			<label>Contact Number</label> <input type="tel" maxlength="11" placeholder="03xxxxxxxxx">
+			<br/><br/>
+			<label>Email</label> <input type="email" placeholder="ahmadali40@yahoo.com">
+			<br/><br/>
+			<label>City</label> <input list="city">
+								<datalist id="city">
+									<option value="Lahore">
+									<option value="Faisalabad">
+									<option value="Sargodha">
+									<option value="Multan">
+									<option value="Rawalpindi">
+									<option value="Islamabad">
+									<option value="Sialkot">
+									<option value="Sahiwal">
+									<option value="Bahawalnagar">
+									<option value="Hyderabad">
+									<option value="Sibbi">
+									<option value="Jacobabad">
+									<option value="Bhakkar">
+									<option value="Burewala">
+									<option value="Rajanpur">
+									<option value="Abottabad">
+									<option value="Swat">
+									<option value="Sheikhupura">
+									<option value="Shikarpur">
+									<option value="Khairpur">
+									<option value="Mardan">
+								</datalist>
+			<br/><br/>
+			<label for="CGPA">CGPA</label> <input type="number" name="" id="CGPA" min="0" max="4">
+			<br/><br/>
+			<label>Which departments do you want to apply for?</label><br/>
+				<input type="checkbox" name="department" id="doc"> <label for="doc">Documentation and Registration</label> <br/>
+				<input type="checkbox" name="department" id="media"> <label for="media">Media and Promotion</label> <br/>
+				<input type="checkbox" name="department" id="design"> <label for="design">Flex and Poster Designing</label> <br/>
+				<input type="checkbox" name="department" id="speak"> <label for="speak">Speakers</label> <br/>
+				<input type="checkbox" name="department" id="decor"> <label for="decor">Decor</label> <br/>
+				<input type="checkbox" name="department" id="manage"> <label for="manage">Event Management</label> <br/>
+				<input type="checkbox" name="department" id="connect"> <label for="connect">Liaison</label> <br/>
+				<input type="checkbox" name="department" id="finance"> <label for="finance">Finance</label> <br/>
+				<input type="checkbox" name="department" id="catering"> <label for="catering">Catering</label> <br/>
+				<input type="checkbox" name="department" id="photo"> <label for="video">Photography</label>
+			<br/><br/>
+			<label>Which societies you are currently part of?</label><br/>
+				<input type="checkbox" name="department" id="seee"> <label for="seee">SEEE</label> <br/>
+				<input type="checkbox" name="department" id="macs"> <label for="macs">MACS</label> <br/>
+				<input type="checkbox" name="department" id="innotex"> <label for="innotex">Innotex</label> <br/>
+				<input type="checkbox" name="department" id="mnc"> <label for="mnc">MNC</label> <br/>
+				<input type="checkbox" name="department" id="aquilla"> <label for="aquilla">Aquilla</label> <br/>
+				<input type="checkbox" name="department" id="bds"> <label for="bds">BDS</label> <br/>
+				<input type="checkbox" name="department" id="csc"> <label for="csc">CSC</label>
+			<br/><br/>
+			<label>Why do you want to join us?</label> <textarea rows="10" cols="50"></textarea>
+			<br/><br/>
+			<label>Upload Photo</label> <input type="file" accept="image/*"/>
+			<br/></br>
+			<input type="submit"/>
+		</form>
+	</body>
+</html>
